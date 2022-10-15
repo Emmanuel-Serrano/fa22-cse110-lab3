@@ -7,10 +7,10 @@ assignees: ''
 
 ---
 
-#Main Problem
+# Main Problem
 
-#What caused it
+# What caused it
 
-#Where you think problem is
+#nWhere you think problem is
 
-#How we think we can fix it
+# How we think we can fix it
