@@ -1,0 +1,91 @@
+/*univerial selector*/
+*{
+
+}
+
+/*class selector*/
+.date {
+    
+}
+
+.image {
+   
+
+}
+
+.term {
+    
+}
+
+.name {
+    
+}
+/*element element selectors*/
+header ul {
+    
+}
+
+header ul li {
+    
+}
+
+/*id selector*/
+#list {
+    
+}
+
+#tasks ol {
+    
+}
+
+#lineup {
+   
+}
+
+/*Selector List*/
+span,
+u {
+    
+}
+
+/*Child Combinator*/
+section>h4 {
+   
+}
+
+/*element selector*/
+p {
+    
+}
+
+.questions {
+   
+}
+
+.Q {
+    
+
+}
+
+.A {
+   
+}
+video {
+    position: relative;
+    margin-left: 20%;
+    width: 75%;
+}
+/*Adjacent sibling combinator*/
+video+audio {
+    
+}
+
+/*General sibling combinator*/
+span~ul {
+   
+}
+
+
+.survery {
+    
+}
