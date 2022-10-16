@@ -22,6 +22,9 @@
 .name {
     display: inline;
 }
+.context{
+    text-align: center;
+}
 /*element element selectors*/
 header ul {
     display: flex;
