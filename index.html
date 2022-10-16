@@ -17,13 +17,13 @@
         <main>
             <header>
                 <h1>MEETING THE TEAM</h1>
-                <h3>October 9, 2022</h3>
+                <h3 class="date">October 9, 2022</h3>
                 <p> <i>Posted by: Team Lead - Emmanuel</i></p>
-                <img src="CSE110.png" alt="CSE 110 Picture"/>
+                <img class="image"src="CSE110.png" alt="CSE 110 Picture"/>
 
                 <div id = "tableOfContext">
                 <nav>
-                    <h2>Table of Context</h2>
+                    <h2 class="subtitle">Table of Context</h2>
                     <ul>
                         <li><a href="#tableOfContext">Table of Context</a></li>
                         <li><a href="#lineup">LineUp</a></li>
@@ -61,25 +61,25 @@
                 <summary><b>LineUp</b></summary>
                 <br />
                 
-                <span style="color: navy">Team Designer</span>
+                <span><u>Team Designer</u></span>
                 
                 <ul>
                     <li>Ryan Truong</li>
                 </ul>
-                <span style="color: navy">Team Planner</span>
+                <span><u>Team Planner</u></span>
                 
                 <ul>
                     <li>Billy Sudirdja</li>
                 </ul>
                 
-                <span style="color: navy">Team Leads</span>
+                <span><u>Team Leads</u></span>
                 
                 <ul>
                     <li>Sailor Eichhorn</li>
                     <li>Emmanuel Serrano</li>
                 </ul>
                 
-                <span style="color:navy">Team Devs</span>
+                <span><u>Team Devs</u></span>
                 
                 <ul>
                     <li>Kevin Truong</li>
@@ -97,7 +97,8 @@
             <hr />
 
             <div id = "tasks">
-                <h2>CheckList</h2>
+                <h2 class="subtitle">CheckList</h2>
+                <div id="list">
                 <ol>
                     <li>Say hi to <b><em>Everyone</em></b></li>
                     <li>Get <b><em>IceBreaker</em></b> started</li>
@@ -106,16 +107,15 @@
                     <li>Say <b><em>Bye</em></b> to everyone</li>
                 </ol>
             </div>
+            </div>
             
             <hr />
             <div id="meeting">
-                <h2>What Happened</h2>
+                <h2 class="subtitle">What Happened</h2>
                     <section>
                     <h4>Attendance</h4>
                     <p>Everyone was able to show up, 
                         except for Ben due to work.
-                    
-                        <br>
                         And he has already been updated on what happened.
                     </p>
                     </section>
@@ -133,28 +133,34 @@
                         relationships.
                         <br>
                         Also trying to come up with an official team name 
-                        instead of just <b>TEAM 40</b>.
+                        instead of just <b class="name">TEAM 40</b>.
                     </p>
                     </section>
 
-                    <section>
+                    
                     <h4>Questions/Comments</h4>
-                    <p>Q: If future team meetings would be in-person or
+                    <section class="questions">
+                    <p class="Q">Q: If future team meetings would be in-person or
                         in some zoom type format.
                     </p>
-                    <p>A: We are just going to go with the flow for now,
+                    <p class="A">A: We are just going to go with the flow for now,
                         and see what works better for everyone. Yet, we do
                         hope to have in-person meetings
                     </p>
-
-    
+                    <p class="Q">Q: How will future meetings go? Like what exactly will
+                        we be talking about?
+                    </p>
+                    <p class="A">A: They will be in a somewhat similar format to this
+                        and they will go over porject details. Along with tasks
+                        that need to be done for the project.
+                    </p>
 
                     </section>
             </div>
             
             <hr />
             <div id="media">
-                <h2>Media</h2>
+                <h2 class="subtitle">Media</h2>
                 <p>Inset video and audio here</p>
                 <video width="320" height="240" controls>
                     <source src="test_video.mp4" type="video/mp4">
@@ -172,7 +178,7 @@
         <hr />
         <section>
         <div id="closing-thoughts">
-        <h2>Closing Thoughts</h2>
+        <h2 class="subtitle">Closing Thoughts</h2>
         
         <p>Just type somethig nhere for the next meeting
             or idk something like that 
@@ -181,7 +187,7 @@
         
             <form action="/action_page.php">
                 <p>Quick Survey</p>
-                <fieldset>
+                <fieldset class="survery">
                     <p> Team Meeting Time Lengths</p>
             
                     <select name="times" id="times">
