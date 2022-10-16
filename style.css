@@ -15,11 +15,11 @@
 }
 
 .term {
-    
+    display: inline-block;
 }
 
 .name {
-    
+    display: inline;
 }
 /*element element selectors*/
 header ul {
@@ -129,7 +129,17 @@ span~ul {
 .survery {
     width: 25%;
 }
+@media screen and (max-width: 992px) {
+    .survery {
+        width: 50%;
+    }
+}
 
+@media screen and (max-width: 600px) {
+    .survery {
+        width: 60%;
+    }
+}
 /*Attribute selector*/
 a[href*='Context'] {
     color: rgb(121, 66, 10);
