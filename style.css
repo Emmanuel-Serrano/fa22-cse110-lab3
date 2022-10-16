@@ -23,7 +23,10 @@
 }
 /*element element selectors*/
 header ul {
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1 1 auto;
 }
 
 header ul li {
@@ -88,6 +91,9 @@ p {
 }
 
 .questions {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-area: auto;
     background-color: brown;
     padding: 10px;
 }
@@ -105,6 +111,8 @@ p {
     border: 2px solid rgba(0, 0, 0, 0.8);
     padding: 15px;
     font-size: 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 video {
     position: relative;
