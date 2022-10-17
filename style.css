@@ -62,9 +62,13 @@ header ul li {
     align-self: auto;
     padding-left: 30px;
 }
-
+@font-face {
+    font-family: 'Cedarville Cursive';
+    src: url(CedarvilleCursive-Regular.ttf);
+}
 #tasks li{
     padding: 10px;
+    font-family: 'Cedarville Cursive', sans-serif;
 }
 
 #lineup {
