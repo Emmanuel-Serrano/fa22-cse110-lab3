@@ -1,7 +1,7 @@
 ---
 name: Issue Form
 about: Describe this issue template's purpose here.
-title: ''
+title: "[BUG]"
 labels: ''
 assignees: ''
 
